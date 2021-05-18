@@ -1,10 +1,10 @@
 class Solution {
 public:
-    vector<int> postorderTraversal(TreeNode* root) {
+    vector<int> preorderTraversal(TreeNode* root) {
         if(!root) return ans;
-        postorderTraversal(root->left);
-        postorderTraversal(root->right);
         ans.push_back(root->val);
+        preorderTraversal(root->left);
+        preorderTraversal(root->right);
         return ans;
     }
 private:
