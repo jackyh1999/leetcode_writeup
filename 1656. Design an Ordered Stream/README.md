@@ -1,0 +1,2 @@
+# Solution/Algorithm
+- dynamic allocation
