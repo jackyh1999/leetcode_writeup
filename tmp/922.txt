@@ -1,1 +1,0 @@
-If even number in odd index, search even index for a odd number, vice versa.

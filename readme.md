@@ -1,5 +1,6 @@
 # Solved
 
-Easy : 153 / 546
-Medium : 0 / 1159
+Easy : 169 / 546
+Medium : 3 / 1159
 Hard : 0 / 467
+Totol : 172 / 2175

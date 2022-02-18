@@ -20,11 +20,13 @@ elif difficulty == 'M':
     data['medium'] += 1
 elif difficulty == 'H':
     data['hard'] += 1  
+data['total'] += 1
 
 text = ('# Solved\n\n'
-'Easy : ' + str(data['easy']) + ' / ' + str(data['total_easy']) + '\n'
+'Easy : '   + str(data['easy'])   + ' / ' + str(data['total_easy'])   + '\n'
 'Medium : ' + str(data['medium']) + ' / ' + str(data['total_medium']) + '\n'
-'Hard : ' + str(data['hard']) + ' / ' + str(data['total_hard']) )
+'Hard : '   + str(data['hard'])   + ' / ' + str(data['total_hard'])   + '\n' 
+'Totol : '  + str(data['total'])  + ' / ' + str(data['total_problem']))
 
 f = open('README.md', 'w')
 f.write(text)
