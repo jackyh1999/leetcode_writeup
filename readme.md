@@ -1,6 +1,6 @@
 # Solved
 
-Easy : 169 / 546
+Easy : 173 / 546
 Medium : 3 / 1159
 Hard : 0 / 467
-Totol : 172 / 2175
+Totol : 176 / 2175
