@@ -1,0 +1,3 @@
+# Solution/Algorithm
+- Class
+- Constructor
